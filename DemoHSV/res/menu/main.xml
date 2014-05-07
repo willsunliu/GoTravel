@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:actionbar="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_email"
+        actionbar:showAsAction="always"
+        android:icon="@drawable/ic_email"
+        android:orderInCategory="100"
+        android:title="Email"/>
+    <item
+        android:id="@+id/action_load"
+        actionbar:showAsAction="always"
+        android:icon="@drawable/ic_list"
+        android:orderInCategory="100"
+        android:title="Load"/>
+    <item
+        android:id="@+id/action_save"
+        actionbar:showAsAction="always"
+        android:icon="@drawable/ic_save"
+        android:orderInCategory="100"
+        android:title="Save"/>
+    <item
+        android:id="@+id/action_pic"
+        actionbar:showAsAction="always"
+        android:icon="@drawable/ic_picture"
+        android:orderInCategory="100"
+        android:title="Save"/>
+
+</menu>

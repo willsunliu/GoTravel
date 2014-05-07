@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@android:color/white"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/bottom_bar_travel"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/transparent"
+        android:text="旅游" />
+
+    <Button
+        android:id="@+id/bottom_bar_life"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/transparent"
+        android:text="生活" />
+
+    <Button
+        android:id="@+id/bottom_bar_knowledge"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/transparent"
+        android:text="智慧" />
+
+    <Button
+        android:id="@+id/bottom_bar_equitment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:background="@drawable/transparent"
+        android:text="出行装备" />
+
+    <Button
+        android:id="@+id/bottom_bar_notification"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/transparent"
+        android:text="通知" />
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@android:color/white"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/bottom_bar_interaction"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/transparent"
+        android:text="互动" />
+
+    <Button
+        android:id="@+id/bottom_bar_collection"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/transparent"
+        android:text="收藏" />
+
+    <Button
+        android:id="@+id/bottom_bar_friends"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/transparent"
+        android:text="朋友" />
+
+    <Button
+        android:id="@+id/bottom_bar_shopping_trolley"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/transparent"
+        android:text="购物车" />
+
+    <Button
+        android:id="@+id/bottom_bar_settings"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/transparent"
+        android:text="设置" />
+
+</LinearLayout>

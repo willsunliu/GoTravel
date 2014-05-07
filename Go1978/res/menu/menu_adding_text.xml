@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:democamera="http://schemas.android.com/apk/res-auto" >
+    
+    <item
+        android:id="@+id/menu_reject"
+        android:title="Reject"
+        democamera:showAsAction="ifRoom|withText"
+        android:icon="@drawable/cancel" />
+    
+    <item
+        android:id="@+id/menu_accept"
+        android:title="Done"
+        democamera:showAsAction="ifRoom|withText"
+        android:icon="@drawable/ic_navigation_accept" />
+
+</menu>

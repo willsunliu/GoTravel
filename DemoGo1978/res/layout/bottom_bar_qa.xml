@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/qa_bottom_bar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@android:color/white"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/bottom_bar_destination"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/transparent"
+        android:text="目的地" />
+
+    <Button
+        android:id="@+id/bottom_bar_preparation"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/transparent"
+        android:text="出门准备" />
+
+    <Button
+        android:id="@+id/bottom_bar_necessary"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/transparent"
+        android:text="途中必备" />
+
+</LinearLayout>

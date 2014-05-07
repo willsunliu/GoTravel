@@ -1,0 +1,67 @@
+<html>
+<head>
+<script>
+function login() {
+	Android.webDoLogin();
+}
+
+function logout() {
+	Android.webDoLogout();
+}
+
+function send() {
+	Android.sendMsg("adfagregtdfvsregrdfgsfga");
+}
+
+function androidLogout() {
+	document.getElementById("openId").innerHTML="";
+	document.getElementById("accessToken").innerHTML="";
+	document.getElementById("expiresIn").innerHTML="";
+}
+
+function upload(openId, accessToken, expiresIn) {
+	document.getElementById("openId").innerHTML=openId;
+	document.getElementById("accessToken").innerHTML=accessToken;
+	document.getElementById("expiresIn").innerHTML=expiresIn;
+}
+
+function openCamera() {
+	android.camera();
+}
+
+function openEditor() {
+	android.editor();
+}
+
+function choosePicture() {
+	android.getPicture();
+}
+
+function showAlert() {
+	alert("1");
+}
+
+function showLoadingBar() {
+	android.showLoadingBar();
+}
+
+function hideLoadingBar() {
+	android.hideLoadingBar();
+}
+
+</script>
+</head>
+<body>
+<p id="text">Hello world!</p>
+<p>
+<button type="button" onclick="openCamera()">Camera</button>
+<button type="button" onclick="openEditor()">Editor</button>
+<button type="button" onclick="choosePicture()">Get Picture</button>
+</p>
+<p>
+<button type="button" onclick="showAlert()">Alert</button>
+<button type="button" onclick="showLoadingBar()">Show Bar</button>
+<button type="button" onclick="hideLoadingBar()">Hide Bar</button>
+</p>
+</body>
+</html>
