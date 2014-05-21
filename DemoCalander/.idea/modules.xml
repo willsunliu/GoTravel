@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DemoCalander.iml" filepath="$PROJECT_DIR$/DemoCalander.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DemoCalander/DemoCalander-DemoCalander.iml" filepath="$PROJECT_DIR$/DemoCalander/DemoCalander-DemoCalander.iml" />
+    </modules>
+  </component>
+</project>
+
